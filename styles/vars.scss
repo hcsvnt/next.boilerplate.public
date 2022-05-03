@@ -1,0 +1,26 @@
+$size-hd: 1600px;
+$size-desktop: 1024px;
+$size-tablet: 768px;
+$size-laptop: 720px;
+$size-phone5: 568px;
+$size-min: 320px;
+
+$color-white: #fff;
+$color-black: #000;
+$color-gray: #666;
+$color-pink: pink;
+
+$color-bg: $color-white;
+$color-text: $color-black;
+
+$time: 0.5s;
+$time-fast: 0.25s;
+
+$ease-in: cubic-bezier(0.895, 0.03, 0.685, 0.22); // quart
+$ease-out: cubic-bezier(0.165, 0.84, 0.44, 1);
+$ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+$ease-out-back: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+$ease-custom: cubic-bezier(0.5, 0, 0.1, 1);
+$easing: $ease-custom;
+
+// $elements: "", content, hero, progressbar, navigation, social, lightbox;

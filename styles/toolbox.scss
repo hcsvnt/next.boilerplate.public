@@ -1,0 +1,23 @@
+// be aware: order is crucial! //
+// can't import global styles here due to modules.scss! //
+
+// vars //
+@import './vars.scss';
+
+// tools //
+@import './mixins.scss';
+@import "./breakpoints";
+@import "./mediaqueries";
+@import "./animations";
+@import "./helpers";
+
+// fonts //
+@import './fonts.scss';
+
+// resets // -> that's global
+// @import "./resets";
+
+// -> swiper //
+// @import './swiper/swiper--thumbnails.scss';
+
+// components //

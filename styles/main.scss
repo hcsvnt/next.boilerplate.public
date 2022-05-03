@@ -1,0 +1,30 @@
+// be aware: order is crucial! //
+
+
+// vars //
+@import './vars.scss';
+
+// tools //
+@import './mixins.scss';
+@import "./breakpoints";
+@import "./mediaqueries";
+@import "./animations";
+@import "./helpers";
+
+// fonts //
+@import './fonts.scss';
+
+// resets //
+@import "./resets";
+
+// layout //
+@import './layout.scss';
+
+// plugins //
+@import './swiper/custom.scss';
+
+// components //
+@import './components/header.scss';
+@import './components/gallery.scss';
+@import './components/footer.scss';
+@import './components/dots.scss';

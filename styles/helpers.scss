@@ -1,0 +1,32 @@
+.sr-only {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: none;
+}
+
+.center-absolute {
+    @include full;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @include breakpoint(tablet) {
+        flex-direction: row;
+    }
+
+    &--column {
+        @include breakpoint(desktop) {
+            flex-direction: column;
+        }
+    }
+}
