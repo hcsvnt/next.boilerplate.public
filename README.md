@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 and including scss, eslint, prettier, swiper js and gsap.
 
 To create a new project utilising this staeter simply run:
-npx create-next-app [project-name] -e https://github.com/hcsvnt/next.boilerplate.git
+npx create-next-app [project-name] -e https://github.com/hcsvnt/next.boilerplate.public
 
 @hcsvnt!!!
 
